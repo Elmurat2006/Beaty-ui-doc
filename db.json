@@ -1,0 +1,10 @@
+{
+    "modal": [
+        {
+            "id": 1,
+            "title": "Modal",
+            "description":"The modal component provides a solid foundation for creating dialogs, popovers, lightboxes, or whatever else.",
+            "subtitle": "The component renders its children node in front of a backdrop component. The Modal offers important features:"
+        }
+    ]
+}

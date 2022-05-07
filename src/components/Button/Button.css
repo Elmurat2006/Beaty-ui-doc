@@ -1,0 +1,56 @@
+:root {
+  --btn-color: rgb(255, 255, 255);
+  --btnblue-bg: rgb(0, 127, 255);
+  --btndark-bg: rgb(14, 67, 123);
+  --btndarkblue-bg: #0a1929;
+}
+
+.btton {
+  padding: 10px;
+  border-radius: 2px;
+  outline: none;
+  border: none;
+  cursor: pointer;
+}
+
+.btn--primary {
+  background-color: var(--btnblue-bg);
+  color: var(--btn-color);
+  font-size: 1rem;
+  border: 1px solid var(--btnblue-bg);
+}
+
+.btn--dark {
+  background-color: var(--btndark-bg);
+  color: var(--btn-color);
+  padding: 8px 20px;
+  font-size: 1rem;
+  border: 1px solid var(--btndark-bg);
+  transition: all 0.3s ease-out;
+}
+
+.btn--medium {
+  padding: 12px 15px;
+  border-radius: 8px;
+  font-size: 18px;
+}
+
+.btn--large {
+  padding: 10px 13px;
+  border-radius: 6px;
+  font-size: 13px;
+}
+
+.btn--large:hover,
+.btn--medium:hover {
+  transition: all 0.3s ease-out;
+  background: var(--btndark-bg);
+  color: var(--btn-color);
+  transition: 250ms;
+}
+.btn--dark:hover {
+  transition: all 0.3s ease-out;
+  background: var(--btndarkblue-bg);
+  color: var(--btn-color);
+  transition: 250ms;
+}
